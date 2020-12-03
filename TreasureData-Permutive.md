@@ -142,7 +142,7 @@ html `<head>` tag.
 
 ```html
 <script>
-  if (permutive && permutive.ready) {
+  if (typeof permutive != "undefined") {
     permutive.ready(function () {
       dataLayer.push({
         event: "permutive_ready",
